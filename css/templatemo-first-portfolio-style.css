@@ -498,7 +498,8 @@ strong {
   z-index: 22;
   top: 0;
   width: 100%;
-  min-width: 550px;
+  min-width: 472px;
+  transform: scaleX(-1)
 }
 
 .hero svg {

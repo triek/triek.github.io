@@ -567,7 +567,7 @@ strong {
 }
 
 .featured-text {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .featured-border-bottom {
@@ -715,7 +715,7 @@ strong {
 .projects-tag {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -937,7 +937,7 @@ strong {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-large);
   font-size: var(--copyright-font-size);
-  color: var(--dark-color);
+  color: var(--primary-color);
   display: inline-block;
   vertical-align: top;
   margin: 2px 2px 5px 2px;
@@ -948,7 +948,7 @@ strong {
 }
 
 .social-icon-link:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   border-color: transparent;
   color: var(--white-color);
 }

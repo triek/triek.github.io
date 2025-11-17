@@ -11,13 +11,13 @@
             <div v-for="(skill, index) in skills" :key="skill.name" class="col-lg-4 col-12">
               <Card :customClass="['services-thumb', { 'services-thumb-up': index % 2 === 1 }]" class="pb-5">
                 <div class="d-flex align-items-center border-bottom mb-4 pb-3">
-                  <i :class="['bi', skill.icon, 'me-3 text-danger fs-1']"></i>
-                  <h3 class="mb-0 ms-3">{{ skill.name }}</h3>
+                  <i :class="['bi', skill.icon, 'text-danger fs-1']"></i>
+                  <h3 class="mb-0 ms-3 fs-3">{{ skill.name }}</h3>
                 </div>
 
                 <p class="mb-3">{{ skill.description }}</p>
 
-                <div class="d-flex flex-wrap gap-2 mb-4">
+                <div class="d-flex flex-wrap gap-2 mb-4 fs-5">
                   <span v-for="tag in skill.tags" :key="tag" class="badge bg-light text-dark border">
                     {{ tag }}
                   </span>

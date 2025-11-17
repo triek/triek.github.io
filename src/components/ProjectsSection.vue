@@ -21,6 +21,24 @@ import ProjectCard from './ProjectCard.vue';
 
 const projects = [
   {
+    tag: 'Web app',
+    title: "StuX",
+    link: 'https://github.com/triek/stu-x',
+    image: '/images/projects/stux.png',
+  }, 
+  {
+    tag: 'Web app',
+    title: "Privion",
+    link: 'https://github.com/triek/privion',
+    image: '/images/projects/privion.png',
+  }, 
+  {
+    tag: 'Web app',
+    title: "Tristan's Porfolio",
+    link: 'https://github.com/triek/triek.github.io',
+    image: '/images/projects/portfolio.png',
+  },
+  {
     tag: 'Game',
     title: 'Minimos',
     link: 'https://github.com/triek/Minimos',
@@ -31,12 +49,6 @@ const projects = [
     title: 'Selaphobia',
     link: 'https://github.com/triek/Selaphobia',
     image: '/images/projects/selaphobia.jpg',
-  },
-  {
-    tag: 'Website',
-    title: "Tristan's Porfolio",
-    link: 'https://github.com/triek/triek.github.io',
-    image: '/images/projects/portfolio.jpg',
   },
   {
     tag: 'Design',

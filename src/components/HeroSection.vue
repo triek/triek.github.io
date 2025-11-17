@@ -13,16 +13,17 @@
               <h1 class="hero-title ms-3 mb-0">Welcome!</h1>
             </div>
 
-            <h2 class="mb-4">I'm open for software industry.</h2>
+            <h2 class="mb-4">Let's bring your dream apps and ideas to life.</h2>
             <p class="mb-4">
               <a class="custom-btn btn custom-link" href="#section_2">Let's begin</a>
             </p>
           </div>
         </div>
 
-        <div class="col-lg-5 col-12 position-relative">
-          <div class="hero-image-wrap"></div>
-          <img src="/images/profile-transparent-bg.png" class="hero-image img-fluid" alt="" style="width: 300px; height: auto" />
+        <div class="col-lg-5 col-12 position-relative" style="margin-bottom: 34px;">
+          <div class="hero-image-wrap">
+              <img src="/images/profile-transparent-bg.png" class="hero-image img-fluid" alt="" />
+          </div>
         </div>
       </div>
     </div>

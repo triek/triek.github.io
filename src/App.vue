@@ -3,7 +3,6 @@
     <Preloader />
     <Navbar />
     <div class="d-flex">
-      <Sidebar />
       <main class="flex-grow-1">
         <HomePage />
         <ServicesPage />

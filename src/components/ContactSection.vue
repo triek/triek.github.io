@@ -39,10 +39,6 @@
                 <a href="https://www.facebook.com/mingtriet.khuong/" target="_blank" class="social-icon-link bi-facebook"></a>
               </li>
             </ul>
-
-            <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
-
-            <p class="mb-0">I’m available for freelance projects</p>
           </div>
         </div>
 
@@ -55,18 +51,13 @@
             <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
 
             <p class="mb-2">
-              <a href="mailto:ITITDK22041@student.hcmiu.edu.vn"> ITITDK22041 @student.hcmiu.edu.vn </a>
-            </p>
-
-            <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
-
-            <p class="mb-0">
-              <a href="tel: +84 333 222 111"> +84 333 222 111 </a>
+              <a href="mailto:ITITDK22041@student.hcmiu.edu.vn"> s225641143@deakin.edu.au </a>
             </p>
           </div>
         </div>
 
         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+          <strong class="site-footer-title d-block m-3">Start a project</strong>
           <ContactForm />
         </div>
       </div>

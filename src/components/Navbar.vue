@@ -34,7 +34,7 @@
             <a class="nav-link click-scroll" href="#section_4">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_5">Experiences</a>
+            <a class="nav-link click-scroll" href="#section_5">Skills</a>
           </li>
         </ul>
 

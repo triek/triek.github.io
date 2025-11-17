@@ -7,7 +7,7 @@
         <HomePage />
         <ServicesPage />
         <ProjectsPage />
-        <ClientsSection />
+        <SkillsSection />
         <ContactSection />
       </main>
     </div>
@@ -16,7 +16,6 @@
 </template>
 
 <script setup>
-import ClientsSection from './components/ClientsSection.vue';
 import ContactSection from './components/ContactSection.vue';
 import Navbar from './components/Navbar.vue';
 import Preloader from './components/Preloader.vue';
@@ -25,4 +24,5 @@ import SiteFooter from './components/SiteFooter.vue';
 import HomePage from './components/pages/HomePage.vue';
 import ProjectsPage from './components/pages/ProjectsPage.vue';
 import ServicesPage from './components/pages/ServicesPage.vue';
+import SkillsSection from './components/SkillsSection.vue';
 </script>

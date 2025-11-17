@@ -6,7 +6,7 @@
       <li class="mb-2"><a class="click-scroll" href="#section_2">About</a></li>
       <li class="mb-2"><a class="click-scroll" href="#section_3">Services</a></li>
       <li class="mb-2"><a class="click-scroll" href="#section_4">Projects</a></li>
-      <li class="mb-2"><a class="click-scroll" href="#section_5">Experiences</a></li>
+      <li class="mb-2"><a class="click-scroll" href="#section_5">Skills</a></li>
       <li class="mb-2"><a class="click-scroll" href="#section_6">Contact</a></li>
     </ul>
 

@@ -596,9 +596,10 @@ strong {
 }
 
 .services-thumb-up {
+  /* Keep same baseline as other cards so grid rows align evenly */
   position: relative;
-  bottom: 50px;
-  margin-bottom: -50px;
+  bottom: 0;
+  margin-bottom: 36px;
 }
 
 .services-thumb:hover {
@@ -738,10 +739,6 @@ strong {
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/
-.contact {
-  background: var(--section-bg-color);
-}
-
 .contact-info {
   background: var(--white-color);
   border-top-right-radius: var(--border-radius-small);
@@ -859,6 +856,7 @@ strong {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+  background-color: #000000;
 }
 
 .site-footer-title {

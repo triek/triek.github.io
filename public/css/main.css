@@ -36,7 +36,8 @@
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family); 
+    font-family: var(--body-font-family);
+    overflow-x: hidden;
 }
 
 
@@ -440,7 +441,7 @@ strong {
 }
 
 .about-heading {
-  font-size: 100px;
+  font-size: clamp(56px, 12vw, 88px);
   font-family: 'DM Sans', sans-serif;
   color: transparent;
   -webkit-text-stroke: 1px var(--p-color);
@@ -476,14 +477,17 @@ strong {
 .hero-image-wrap {
   background: var(--white-color);
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  width: clamp(240px, 55vw, 420px);
+  height: clamp(240px, 55vw, 420px);
   position: absolute;
   z-index: 22;
   top: -50px;
   right: 0;
   left: 0;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   pointer-events: none;
 }
 
@@ -491,10 +495,11 @@ strong {
   position: absolute;
   z-index: 22;
   margin-top: 6px;
-  margin-left: -20px;
+  margin-left: 0;
   width: 100%;
-  min-width: 490px;
-  transform: scaleX(-1);
+  max-width: 520px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(-1);
 }
 
 .hero svg {
@@ -1103,6 +1108,20 @@ strong {
 }
 
 @media screen and (max-width: 575px) {
+  .section-padding {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 320px;
+  }
+
+  .about-heading {
+    font-size: clamp(44px, 18vw, 64px);
+  }
+
   .navbar .container {
     margin-right: 12px;
     margin-left: 12px;
@@ -1144,8 +1163,9 @@ strong {
   }
 
   .hero-image-wrap {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
+    top: -20px;
   }
 
   .hero-image {

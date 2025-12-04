@@ -5,7 +5,7 @@
     </svg>
     <div class="container">
       <div class="row">
-        <div class="col-lg-7 col-12">
+        <div class="col-lg-7 col-12 px-3">
           <div class="hero-text">
             <div class="hero-title-wrap d-flex align-items-center mb-4">
               <img src="/images/profile-picture.jpg" class="avatar-image avatar-image-large img-fluid" alt="" />

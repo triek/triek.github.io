@@ -6,7 +6,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12 px-3">
           <div class="about-thumb">
             <div class="row">
               <!-- Years -->
@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+        <div class="col-lg-6 col-12 mt-5 mt-lg-0 px-3">
           <div class="about-thumb">
             <h3 class="pt-2 mb-3">Get to know Tristan</h3>
             <p>
